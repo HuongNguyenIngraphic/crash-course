@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { TaskService } from 'src/app/services/task.service';
-import { UiService } from 'src/app/services/ui.service';
+import { TaskService } from '../../services/task.service';
+import { UiService } from '../../services/ui.service';
 import {Task} from '../../Task';
 
 @Component({
